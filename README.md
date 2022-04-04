@@ -1,6 +1,6 @@
-# Quarkus SSO Demo Project
+# Quarkus OIDC Demo Project
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
+This project uses Quarkus, the Supersonic Subatomic Java Framework. And showcases how to use the Quarkus OIDC extension to provide a SSO experience for your users.
 
 If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
