@@ -67,7 +67,13 @@ public class BaseResource {
     @GET
     @Path("/accesstoken")
     public String accessToken() {
-        return accessToken.getName();
+        return accessToken.toString();
+    }
+
+    @GET
+    @Path("/refreshtoken")
+    public String refreshToken() {
+        return refreshToken.getToken();
     }
 
     @GET
